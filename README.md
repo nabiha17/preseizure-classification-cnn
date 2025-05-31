@@ -15,6 +15,14 @@ This project uses the [CHB-MIT Scalp EEG Database](https://physionet.org/content
 1. Visit the dataset: https://physionet.org/content/chbmit/1.0.0/
 2. Download relevant patient `.edf` files (or use Python to do this automatically).
 3. Organize your dataset as follows:
+/dataset/
+├── interictal/
+│ ├── patient01_segment1.npy
+│ ├── ...
+└── preictal/
+├── patient01_segment1.npy
+├── ...
+
 ## 📁 Dataset
 - EEG data is divided into:
   - `5s Preictal` segments (just before a seizure)
